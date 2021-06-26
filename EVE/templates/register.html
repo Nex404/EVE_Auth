@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Register Page
+{% endblock %}
+
+{% block content %}
+<body class="text-center">
+    <div class="container">
+        <form method="POST" class="form-register" style="color:white">
+            {{ form.hidden_tag() }}
+            <br>
+            <img class="mb-4" src="https://images.evetech.net/corporations/98165469/logo?tenant=tranquility&size=128" alt="">
+            <h1 class="h3 mb-3 font-weight-normal">
+                Erstelle dein Account
+            </h1>
+            <br>
+            {{form.username.label()}}
+            {{ form.username(class="form-control", placeholder="Username") }}
+            
+            {{form.email_address.label()}}
+            {{ form.email_address(class="form-control", placeholder="Email Adresse") }}
+            
+            {{form.password1.label()}}
+            {{ form.password1(class="form-control", placeholder="Passwort") }}
+            
+            {{form.password2.label()}}
+            {{ form.password2(class="form-control", placeholder="Bestätige Passwort") }}
+            
+            {{form.registration_token.label()}}
+            {{ form.registration_token(class="form-control", placeholder="Registration Token eingeben") }}
+            <br>
+
+            
+            <div class="checkbox mb-3">
+               <h6>Hast du bereits einen Account?</h6>
+               <a class="btn btn-sm btn-secondary" href="{{ url_for('login_page') }}">Einloggen</a>
+            </div>
+             
+            {{ form.submit(class="btn btn-lg btn-block btn-primary") }}
+            <br>
+        </form>
+    </div>
+</body>
+{% endblock %}

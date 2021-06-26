@@ -1,0 +1,524 @@
+3392,Mechanics,Armor,1210
+3393,Repair Systems,Armor,1210
+3394,Hull Upgrades,Armor,1210
+16069,Remote Armor Repair Systems,Armor,1210
+21803,Capital Repair Systems,Armor,1210
+22806,EM Armor Compensation,Armor,1210
+22807,Explosive Armor Compensation,Armor,1210
+22808,Kinetic Armor Compensation,Armor,1210
+22809,Thermal Armor Compensation,Armor,1210
+24568,Capital Remote Armor Repair Systems,Armor,1210
+27902,Remote Hull Repair Systems,Armor,1210
+27936,Capital Remote Hull Repair Systems,Armor,1210
+33078,Armor Layering,Armor,1210
+3363,Corporation Management,Corporation Management,266
+3364,Station Management,Corporation Management,266
+3365,Starbase Management,Corporation Management,266
+3366,Factory Management,Corporation Management,266
+3367,Refinery Management,Corporation Management,266
+3368,Diplomatic Relations,Corporation Management,266
+3369,CFO Training,Corporation Management,266
+3370,Chief Science Officer,Corporation Management,266
+3371,Public Relations,Corporation Management,266
+3372,Intelligence Analyst,Corporation Management,266
+3731,Megacorp Management,Corporation Management,266
+3732,Empire Control,Corporation Management,266
+1224,Sovereignty,Corporation Management,266
+3436,Drones,Drones,273
+3437,Drone Avionics,Drones,273
+3438,Mining Drone Operation,Drones,273
+3439,Repair Drone Operation,Drones,273
+3440,Salvage Drone Operation,Drones,273
+3441,Heavy Drone Operation,Drones,273
+3442,Drone Interfacing,Drones,273
+12305,Drone Navigation,Drones,273
+12484,Amarr Drone Specialization,Drones,273
+12485,Minmatar Drone Specialization,Drones,273
+12486,Gallente Drone Specialization,Drones,273
+12487,Caldari Drone Specialization,Drones,273
+22172,TEST Drone Skill,Drones,273
+22541,Mining Drone Specialization,Drones,273
+23069,Fighters,Drones,273
+23566,Advanced Drone Avionics,Drones,273
+23594,Sentry Drone Interfacing,Drones,273
+23599,Propulsion Jamming Drone Interfacing,Drones,273
+23606,Drone Sharpshooting,Drones,273
+23618,Drone Durability,Drones,273
+24241,Light Drone Operation,Drones,273
+24613,Fighter Hangar Management,Drones,273
+32339,Heavy Fighters,Drones,273
+33699,Medium Drone Operation,Drones,273
+40572,Light Fighters,Drones,273
+40573,Support Fighters,Drones,273
+43702,Ice Harvesting Drone Operation,Drones,273
+43703,Ice Harvesting Drone Specialization,Drones,273
+57164,Salvage Drone Specialization,Drones,273
+3427,Electronic Warfare,Electronic Systems,272
+3433,Sensor Linking,Electronic Systems,272
+3434,Weapon Disruption,Electronic Systems,272
+3435,Propulsion Jamming,Electronic Systems,272
+4411,Signature Masking,Electronic Systems,272
+11208,Advanced Sensor Upgrades,Electronic Systems,272
+11579,Cloaking,Electronic Systems,272
+12368,Hypereuclidean Navigation,Electronic Systems,272
+19759,Long Distance Jamming,Electronic Systems,272
+19760,Frequency Modulation,Electronic Systems,272
+19761,Signal Dispersion,Electronic Systems,272
+19766,Signal Suppression,Electronic Systems,272
+19767,Weapon Destabilization,Electronic Systems,272
+19921,Target Painting,Electronic Systems,272
+19922,Signature Focusing,Electronic Systems,272
+27906,Tactical Logistics Reconfiguration,Electronic Systems,272
+27911,Burst Projector Operation,Electronic Systems,272
+28604,Tournament Observation,Electronic Systems,272
+28631,Imperial Navy Security Clearance,Electronic Systems,272
+3318,Weapon Upgrades,Engineering,1216
+3413,Power Grid Management,Engineering,1216
+3417,Capacitor Systems Operation,Engineering,1216
+3418,Capacitor Management,Engineering,1216
+3421,Energy Pulse Weapons,Engineering,1216
+3423,Capacitor Emission Systems,Engineering,1216
+3424,Energy Grid Upgrades,Engineering,1216
+3426,CPU Management,Engineering,1216
+3432,Electronics Upgrades,Engineering,1216
+11204,Advanced Energy Grid Upgrades,Engineering,1216
+11207,Advanced Weapon Upgrades,Engineering,1216
+24572,Capital Capacitor Emission Systems,Engineering,1216
+28164,Thermodynamics,Engineering,1216
+28879,Nanite Operation,Engineering,1216
+28880,Nanite Interfacing,Engineering,1216
+32797,Resistance Phasing,Engineering,1216
+3348,Leadership,Fleet Support,258
+3349,Skirmish Command,Fleet Support,258
+3350,Shield Command,Fleet Support,258
+3351,Shield Command Specialist,Fleet Support,258
+3352,Information Command Specialist,Fleet Support,258
+3354,Command Burst Specialist,Fleet Support,258
+11569,Armored Command Specialist,Fleet Support,258
+11572,Skirmish Command Specialist,Fleet Support,258
+11574,Wing Command,Fleet Support,258
+20494,Armored Command,Fleet Support,258
+20495,Information Command,Fleet Support,258
+22536,Mining Foreman,Fleet Support,258
+22552,Mining Director,Fleet Support,258
+24764,Fleet Command,Fleet Support,258
+43728,Spatial Phenomena Generation,Fleet Support,258
+57317,Fleet Formations,Fleet Support,258
+57318,Fleet Coordination,Fleet Support,258
+3300,Gunnery,Gunnery,255
+3301,Small Hybrid Turret,Gunnery,255
+3302,Small Projectile Turret,Gunnery,255
+3303,Small Energy Turret,Gunnery,255
+3304,Medium Hybrid Turret,Gunnery,255
+3305,Medium Projectile Turret,Gunnery,255
+3306,Medium Energy Turret,Gunnery,255
+3307,Large Hybrid Turret,Gunnery,255
+3308,Large Projectile Turret,Gunnery,255
+3309,Large Energy Turret,Gunnery,255
+3310,Rapid Firing,Gunnery,255
+3311,Sharpshooter,Gunnery,255
+3312,Motion Prediction,Gunnery,255
+3315,Surgical Strike,Gunnery,255
+3316,Controlled Bursts,Gunnery,255
+3317,Trajectory Analysis,Gunnery,255
+11082,Small Railgun Specialization,Gunnery,255
+11083,Small Beam Laser Specialization,Gunnery,255
+11084,Small Autocannon Specialization,Gunnery,255
+12201,Small Artillery Specialization,Gunnery,255
+12202,Medium Artillery Specialization,Gunnery,255
+12203,Large Artillery Specialization,Gunnery,255
+12204,Medium Beam Laser Specialization,Gunnery,255
+12205,Large Beam Laser Specialization,Gunnery,255
+12206,Medium Railgun Specialization,Gunnery,255
+12207,Large Railgun Specialization,Gunnery,255
+12208,Medium Autocannon Specialization,Gunnery,255
+12209,Large Autocannon Specialization,Gunnery,255
+12210,Small Blaster Specialization,Gunnery,255
+12211,Medium Blaster Specialization,Gunnery,255
+12212,Large Blaster Specialization,Gunnery,255
+12213,Small Pulse Laser Specialization,Gunnery,255
+12214,Medium Pulse Laser Specialization,Gunnery,255
+12215,Large Pulse Laser Specialization,Gunnery,255
+20327,Capital Energy Turret,Gunnery,255
+21666,Capital Hybrid Turret,Gunnery,255
+21667,Capital Projectile Turret,Gunnery,255
+22043,Tactical Weapon Reconfiguration,Gunnery,255
+24563,Doomsday Operation,Gunnery,255
+32856,Tactical Strike,Gunnery,255
+41403,Capital Autocannon Specialization,Gunnery,255
+41404,Capital Artillery Specialization,Gunnery,255
+41405,Capital Blaster Specialization,Gunnery,255
+41406,Capital Railgun Specialization,Gunnery,255
+41407,Capital Pulse Laser Specialization,Gunnery,255
+41408,Capital Beam Laser Specialization,Gunnery,255
+41537,Doomsday Rapid Firing,Gunnery,255
+47870,Small Precursor Weapon,Gunnery,255
+47871,Medium Precursor Weapon,Gunnery,255
+47872,Large Precursor Weapon,Gunnery,255
+47873,Small Disintegrator Specialization,Gunnery,255
+47874,Medium Disintegrator Specialization,Gunnery,255
+47875,Large Disintegrator Specialization,Gunnery,255
+52998,Capital Precursor Weapon,Gunnery,255
+54826,Large Vorton Projector,Gunnery,255
+54827,Small Vorton Specialization,Gunnery,255
+54828,Medium Vorton Specialization,Gunnery,255
+54829,Large Vorton Specialization,Gunnery,255
+54840,Vorton Power Amplification,Gunnery,255
+54841,Vorton Arc Guidance,Gunnery,255
+55033,Vorton Projector Operation,Gunnery,255
+55034,Small Vorton Projector,Gunnery,255
+55035,Medium Vorton Projector,Gunnery,255
+55511,Vorton Arc Extension,Gunnery,255
+3319,Missile Launcher Operation,Missiles,256
+3320,Rockets,Missiles,256
+3321,Light Missiles,Missiles,256
+3322,Auto-Targeting Missiles,Missiles,256
+3323,Defender Missiles,Missiles,256
+3324,Heavy Missiles,Missiles,256
+3325,Torpedoes,Missiles,256
+3326,Cruise Missiles,Missiles,256
+12441,Missile Bombardment,Missiles,256
+12442,Missile Projection,Missiles,256
+20209,Rocket Specialization,Missiles,256
+20210,Light Missile Specialization,Missiles,256
+20211,Heavy Missile Specialization,Missiles,256
+20212,Cruise Missile Specialization,Missiles,256
+20213,Torpedo Specialization,Missiles,256
+20312,Guided Missile Precision,Missiles,256
+20314,Target Navigation Prediction,Missiles,256
+20315,Warhead Upgrades,Missiles,256
+21071,Rapid Launch,Missiles,256
+21668,XL Torpedoes,Missiles,256
+25718,Heavy Assault Missile Specialization,Missiles,256
+25719,Heavy Assault Missiles,Missiles,256
+28073,Bomb Deployment,Missiles,256
+32435,XL Cruise Missiles,Missiles,256
+41409,XL Torpedo Specialization,Missiles,256
+41410,XL Cruise Missile Specialization,Missiles,256
+3449,Navigation,Navigation,275
+3450,Afterburner,Navigation,275
+3451,Fuel Conservation,Navigation,275
+3452,Acceleration Control,Navigation,275
+3453,Evasive Maneuvering,Navigation,275
+3454,High Speed Maneuvering,Navigation,275
+3455,Warp Drive Operation,Navigation,275
+3456,Jump Drive Operation,Navigation,275
+4385,Micro Jump Drive Operation,Navigation,275
+21603,Cynosural Field Theory,Navigation,275
+21610,Jump Fuel Conservation,Navigation,275
+21611,Jump Drive Calibration,Navigation,275
+24562,Jump Portal Generation,Navigation,275
+3405,Biology,Neural Enhancement,1220
+3411,Cybernetics,Neural Enhancement,1220
+24242,Infomorph Psychology,Neural Enhancement,1220
+24606,Cloning Facility Operation,Neural Enhancement,1220
+25530,Neurotoxin Recovery,Neural Enhancement,1220
+25538,Neurotoxin Control,Neural Enhancement,1220
+33399,Infomorph Synchronizing,Neural Enhancement,1220
+33407,Advanced Infomorph Psychology,Neural Enhancement,1220
+2403,Advanced Planetology,Planet Management,1241
+2406,Planetology,Planet Management,1241
+2495,Interplanetary Consolidation,Planet Management,1241
+2505,Command Center Upgrades,Planet Management,1241
+13279,Remote Sensing,Planet Management,1241
+3380,Industry,Production,268
+3381,Amarr Tech,Production,268
+3382,Caldari Tech,Production,268
+3383,Gallente Tech,Production,268
+3384,Minmatar Tech,Production,268
+3387,Mass Production,Production,268
+3388,Advanced Industry,Production,268
+3391,Mobile Factory Operation,Production,268
+3395,Advanced Small Ship Construction,Production,268
+3396,Advanced Industrial Ship Construction,Production,268
+3397,Advanced Medium Ship Construction,Production,268
+3398,Advanced Large Ship Construction,Production,268
+3400,Outpost Construction,Production,268
+22242,Capital Ship Construction,Production,268
+24268,Supply Chain Management,Production,268
+24625,Advanced Mass Production,Production,268
+26224,Drug Manufacturing,Production,268
+3385,Reprocessing,Resource Processing,1218
+3386,Mining,Resource Processing,1218
+3389,Reprocessing Efficiency,Resource Processing,1218
+3390,Mobile Refinery Operation,Resource Processing,1218
+3410,Astrogeology,Resource Processing,1218
+11395,Deep Core Mining,Resource Processing,1218
+12180,Arkonor Processing,Resource Processing,1218
+12181,Bistot Processing,Resource Processing,1218
+12182,Crokite Processing,Resource Processing,1218
+12183,Dark Ochre Processing,Resource Processing,1218
+12184,Gneiss Processing,Resource Processing,1218
+12185,Hedbergite Processing,Resource Processing,1218
+12186,Hemorphite Processing,Resource Processing,1218
+12187,Jaspet Processing,Resource Processing,1218
+12188,Kernite Processing,Resource Processing,1218
+12189,Mercoxit Processing,Resource Processing,1218
+12190,Omber Processing,Resource Processing,1218
+12191,Plagioclase Processing,Resource Processing,1218
+12192,Pyroxeres Processing,Resource Processing,1218
+12193,Scordite Processing,Resource Processing,1218
+12194,Spodumain Processing,Resource Processing,1218
+12195,Veldspar Processing,Resource Processing,1218
+12196,Scrapmetal Processing,Resource Processing,1218
+16281,Ice Harvesting,Resource Processing,1218
+18025,Ice Processing,Resource Processing,1218
+22578,Mining Upgrades,Resource Processing,1218
+25544,Gas Cloud Harvesting,Resource Processing,1218
+25863,Salvaging,Resource Processing,1218
+28373,Ore Compression,Resource Processing,1218
+28585,Industrial Reconfiguration,Resource Processing,1218
+45746,Reactions,Resource Processing,1218
+45748,Mass Reactions,Resource Processing,1218
+45749,Advanced Mass Reactions,Resource Processing,1218
+45750,Remote Reactions,Resource Processing,1218
+46152,Ubiquitous Moon Ore Processing,Resource Processing,1218
+46153,Common Moon Ore Processing,Resource Processing,1218
+46154,Uncommon Moon Ore Processing,Resource Processing,1218
+46155,Rare Moon Ore Processing,Resource Processing,1218
+46156,Exceptional Moon Ore Processing,Resource Processing,1218
+56631,Bezdnacine Processing,Resource Processing,1218
+56632,Talassonite Processing,Resource Processing,1218
+56633,Rakovene Processing,Resource Processing,1218
+26252,Jury Rigging,Rigging,269
+26253,Armor Rigging,Rigging,269
+26254,Astronautics Rigging,Rigging,269
+26255,Drones Rigging,Rigging,269
+26256,Electronic Superiority Rigging,Rigging,269
+26257,Projectile Weapon Rigging,Rigging,269
+26258,Energy Weapon Rigging,Rigging,269
+26259,Hybrid Weapon Rigging,Rigging,269
+26260,Launcher Rigging,Rigging,269
+26261,Shield Rigging,Rigging,269
+3412,Astrometrics,Scanning,1217
+3551,Survey,Scanning,1217
+13278,Archaeology,Scanning,1217
+21718,Hacking,Scanning,1217
+25739,Astrometric Rangefinding,Scanning,1217
+25810,Astrometric Pinpointing,Scanning,1217
+25811,Astrometric Acquisition,Scanning,1217
+3402,Science,Science,270
+3403,Research,Science,270
+3406,Laboratory Operation,Science,270
+3408,Sleeper Encryption Methods,Science,270
+3409,Metallurgy,Science,270
+11433,High Energy Physics,Science,270
+11441,Plasma Physics,Science,270
+11442,Nanite Engineering,Science,270
+11443,Hydromagnetic Physics,Science,270
+11444,Amarr Starship Engineering,Science,270
+11445,Minmatar Starship Engineering,Science,270
+11446,Graviton Physics,Science,270
+11447,Laser Physics,Science,270
+11448,Electromagnetic Physics,Science,270
+11449,Rocket Science,Science,270
+11450,Gallente Starship Engineering,Science,270
+11451,Nuclear Physics,Science,270
+11452,Mechanical Engineering,Science,270
+11453,Electronic Engineering,Science,270
+11454,Caldari Starship Engineering,Science,270
+11455,Quantum Physics,Science,270
+11487,Astronautic Engineering,Science,270
+11529,Molecular Engineering,Science,270
+11858,Hypernet Science,Science,270
+12179,Research Project Management,Science,270
+20433,Talocan Technology,Science,270
+21789,Sleeper Technology,Science,270
+21790,Caldari Encryption Methods,Science,270
+21791,Minmatar Encryption Methods,Science,270
+23087,Amarr Encryption Methods,Science,270
+23121,Gallente Encryption Methods,Science,270
+23123,Takmahl Technology,Science,270
+23124,Yan Jung Technology,Science,270
+24270,Scientific Networking,Science,270
+24624,Advanced Laboratory Operation,Science,270
+30324,Defensive Subsystem Technology,Science,270
+30325,Core Subsystem Technology,Science,270
+30326,Electronic Subsystem Technology,Science,270
+30327,Offensive Subsystem Technology,Science,270
+30788,Propulsion Subsystem Technology,Science,270
+52307,Triglavian Quantum Engineering,Science,270
+52308,Triglavian Encryption Methods,Science,270
+55025,Upwell Encryption Methods,Science,270
+3416,Shield Operation,Shields,1209
+3419,Shield Management,Shields,1209
+3420,Tactical Shield Manipulation,Shields,1209
+3422,Shield Emission Systems,Shields,1209
+3425,Shield Upgrades,Shields,1209
+11206,Advanced Shield Upgrades,Shields,1209
+11566,Thermal Shield Compensation,Shields,1209
+12365,EM Shield Compensation,Shields,1209
+12366,Kinetic Shield Compensation,Shields,1209
+12367,Explosive Shield Compensation,Shields,1209
+21059,Shield Compensation,Shields,1209
+21802,Capital Shield Operation,Shields,1209
+24571,Capital Shield Emission Systems,Shields,1209
+44067,Invulnerability Core Operation,Shields,1209
+3355,Social,Social,278
+3356,Negotiation,Social,278
+3357,Diplomacy,Social,278
+3358,Fast Talk,Social,278
+3359,Connections,Social,278
+3361,Criminal Connections,Social,278
+3362,DED Connections,Social,278
+3893,Mining Connections,Social,278
+3894,Distribution Connections,Social,278
+3895,Security Connections,Social,278
+3184,ORE Industrial,Spaceship Command,257
+3327,Spaceship Command,Spaceship Command,257
+3328,Gallente Frigate,Spaceship Command,257
+3329,Minmatar Frigate,Spaceship Command,257
+3330,Caldari Frigate,Spaceship Command,257
+3331,Amarr Frigate,Spaceship Command,257
+3332,Gallente Cruiser,Spaceship Command,257
+3333,Minmatar Cruiser,Spaceship Command,257
+3334,Caldari Cruiser,Spaceship Command,257
+3335,Amarr Cruiser,Spaceship Command,257
+3336,Gallente Battleship,Spaceship Command,257
+3337,Minmatar Battleship,Spaceship Command,257
+3338,Caldari Battleship,Spaceship Command,257
+3339,Amarr Battleship,Spaceship Command,257
+3340,Gallente Industrial,Spaceship Command,257
+3341,Minmatar Industrial,Spaceship Command,257
+3342,Caldari Industrial,Spaceship Command,257
+3343,Amarr Industrial,Spaceship Command,257
+3344,Gallente Titan,Spaceship Command,257
+3345,Minmatar Titan,Spaceship Command,257
+3346,Caldari Titan,Spaceship Command,257
+3347,Amarr Titan,Spaceship Command,257
+3755,Jove Frigate,Spaceship Command,257
+3758,Jove Cruiser,Spaceship Command,257
+9955,Polaris,Spaceship Command,257
+10264,Concord,Spaceship Command,257
+11075,Jove Industrial,Spaceship Command,257
+11078,Jove Battleship,Spaceship Command,257
+12092,Interceptors,Spaceship Command,257
+12093,Covert Ops,Spaceship Command,257
+12095,Assault Frigates,Spaceship Command,257
+12096,Logistics Cruisers,Spaceship Command,257
+12097,Destroyers,Spaceship Command,257
+12098,Interdictors,Spaceship Command,257
+12099,Battlecruisers,Spaceship Command,257
+16591,Heavy Assault Cruisers,Spaceship Command,257
+17940,Mining Barge,Spaceship Command,257
+19430,Omnipotent,Spaceship Command,257
+19719,Transport Ships,Spaceship Command,257
+20342,Advanced Spaceship Command,Spaceship Command,257
+20524,Amarr Freighter,Spaceship Command,257
+20525,Amarr Dreadnought,Spaceship Command,257
+20526,Caldari Freighter,Spaceship Command,257
+20527,Gallente Freighter,Spaceship Command,257
+20528,Minmatar Freighter,Spaceship Command,257
+20530,Caldari Dreadnought,Spaceship Command,257
+20531,Gallente Dreadnought,Spaceship Command,257
+20532,Minmatar Dreadnought,Spaceship Command,257
+20533,Capital Ships,Spaceship Command,257
+22551,Exhumers,Spaceship Command,257
+22761,Recon Ships,Spaceship Command,257
+23950,Command Ships,Spaceship Command,257
+24311,Amarr Carrier,Spaceship Command,257
+24312,Caldari Carrier,Spaceship Command,257
+24313,Gallente Carrier,Spaceship Command,257
+24314,Minmatar Carrier,Spaceship Command,257
+28374,Capital Industrial Ships,Spaceship Command,257
+28609,Heavy Interdiction Cruisers,Spaceship Command,257
+28615,Electronic Attack Ships,Spaceship Command,257
+28656,Black Ops,Spaceship Command,257
+28667,Marauders,Spaceship Command,257
+29029,Jump Freighters,Spaceship Command,257
+29637,Industrial Command Ships,Spaceship Command,257
+30650,Amarr Strategic Cruiser,Spaceship Command,257
+30651,Caldari Strategic Cruiser,Spaceship Command,257
+30652,Gallente Strategic Cruiser,Spaceship Command,257
+30653,Minmatar Strategic Cruiser,Spaceship Command,257
+32918,Mining Frigate,Spaceship Command,257
+33091,Amarr Destroyer,Spaceship Command,257
+33092,Caldari Destroyer,Spaceship Command,257
+33093,Gallente Destroyer,Spaceship Command,257
+33094,Minmatar Destroyer,Spaceship Command,257
+33095,Amarr Battlecruiser,Spaceship Command,257
+33096,Caldari Battlecruiser,Spaceship Command,257
+33097,Gallente Battlecruiser,Spaceship Command,257
+33098,Minmatar Battlecruiser,Spaceship Command,257
+33856,Expedition Frigates,Spaceship Command,257
+34327,ORE Freighter,Spaceship Command,257
+34390,Amarr Tactical Destroyer,Spaceship Command,257
+34533,Minmatar Tactical Destroyer,Spaceship Command,257
+35680,Caldari Tactical Destroyer,Spaceship Command,257
+35685,Gallente Tactical Destroyer,Spaceship Command,257
+37615,Command Destroyers,Spaceship Command,257
+40328,Logistics Frigates,Spaceship Command,257
+40535,Amarr Force Auxiliary,Spaceship Command,257
+40536,Caldari Force Auxiliary,Spaceship Command,257
+40537,Gallente Force Auxiliary,Spaceship Command,257
+40538,Minmatar Force Auxiliary,Spaceship Command,257
+47445,Flag Cruisers,Spaceship Command,257
+47867,Precursor Frigate,Spaceship Command,257
+47868,Precursor Cruiser,Spaceship Command,257
+47869,Precursor Battleship,Spaceship Command,257
+49742,Precursor Destroyer,Spaceship Command,257
+49743,Precursor Battlecruiser,Spaceship Command,257
+52997,Precursor Dreadnought,Spaceship Command,257
+54794,EDENCOM Battleship,Spaceship Command,257
+55031,EDENCOM Frigate,Spaceship Command,257
+55032,EDENCOM Cruiser,Spaceship Command,257
+3373,Starbase Defense Management,Structure Management,1545
+11584,Anchoring,Structure Management,1545
+37796,Structure Missile Systems,Structure Management,1545
+37797,Structure Doomsday Operation,Structure Management,1545
+37798,Structure Electronic Systems,Structure Management,1545
+37799,Structure Engineering Systems,Structure Management,1545
+30532,Amarr Defensive Systems,Subsystems,1240
+30536,Amarr Electronic Systems,Subsystems,1240
+30537,Amarr Offensive Systems,Subsystems,1240
+30538,Amarr Propulsion Systems,Subsystems,1240
+30539,Amarr Core Systems,Subsystems,1240
+30540,Gallente Defensive Systems,Subsystems,1240
+30541,Gallente Electronic Systems,Subsystems,1240
+30542,Caldari Electronic Systems,Subsystems,1240
+30543,Minmatar Electronic Systems,Subsystems,1240
+30544,Caldari Defensive Systems,Subsystems,1240
+30545,Minmatar Defensive Systems,Subsystems,1240
+30546,Gallente Core Systems,Subsystems,1240
+30547,Minmatar Core Systems,Subsystems,1240
+30548,Caldari Core Systems,Subsystems,1240
+30549,Caldari Offensive Systems,Subsystems,1240
+30550,Gallente Offensive Systems,Subsystems,1240
+30551,Minmatar Offensive Systems,Subsystems,1240
+30552,Caldari Propulsion Systems,Subsystems,1240
+30553,Gallente Propulsion Systems,Subsystems,1240
+30554,Minmatar Propulsion Systems,Subsystems,1240
+3428,Long Range Targeting,Targeting,1213
+3429,Target Management,Targeting,1213
+3430,Advanced Target Management,Targeting,1213
+3431,Signature Analysis,Targeting,1213
+32999,Magnetometric Sensor Compensation,Targeting,1213
+33000,Gravimetric Sensor Compensation,Targeting,1213
+33001,Ladar Sensor Compensation,Targeting,1213
+33002,Radar Sensor Compensation,Targeting,1213
+3443,Trade,Trade,274
+3444,Retail,Trade,274
+3445,Black Market Trading,Trade,274
+3446,Broker Relations,Trade,274
+3447,Visibility,Trade,274
+3448,Smuggling,Trade,274
+11015,Test,Trade,274
+12834,General Freight,Trade,274
+13069,Starship Freight,Trade,274
+13070,Mineral Freight,Trade,274
+13071,Munitions Freight,Trade,274
+13072,Drone Freight,Trade,274
+13073,Raw Material Freight,Trade,274
+13074,Consumable Freight,Trade,274
+13075,Hazardous Material Freight,Trade,274
+16594,Procurement,Trade,274
+16595,Daytrading,Trade,274
+16596,Wholesale,Trade,274
+16597,Advanced Broker Relations,Trade,274
+16598,Marketing,Trade,274
+16622,Accounting,Trade,274
+18580,Tycoon,Trade,274
+25233,Corporation Contracting,Trade,274
+25235,Contracting,Trade,274
+28261,Tax Evasion,Trade,274
+33467,Customs Code Expertise,Trade,274

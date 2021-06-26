@@ -1,0 +1,6 @@
+esipy
+requests
+pyswagger
+flask
+flask-SQLAlchemy
+wtforms

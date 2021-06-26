@@ -1,0 +1,460 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Test Page
+{% endblock %}
+
+{% block content %}
+    <div class="container" style="text-align: center">
+      <br><br>
+        <h1> Willkommen {{ current_user.username }}</h1>
+        <br><br>
+    </div>
+    <div class="container" style="text-align: center">
+        <form id="alter" method="POST">
+            {{ form.char}}
+            {{ form.options }}
+            <input type="Submit">
+        </form>
+    </div>
+    <div class="container">
+        {% if wallet %}
+          <br>
+          <h1>Geldbörsenverlauf</h1>
+          <br>
+          <h3>Der derzeitige Geldbörsenbetrag von {{ current_char.character_name }} ist {{ wallet.data }} ISK hoch.</h3>
+          <br>
+        {% endif %}
+        <!--Wallet Part-->
+        {% if wallet_journal %}
+        <div class="container">
+          <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <!-- Your Columns HERE -->
+                    <th scope="col">Betrag</th>
+                    <th scope="col">Guthaben</th>
+                    <th scope="col">Datum</th>
+                    <th scope="col">Beschreibung</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Your rows inside the table HERE: -->
+                {% for i in journal_len %}
+                    <tr>
+                        <td>{{ wallet_journal[i].amount }}</td>
+                        <td>{{ wallet_journal[i].balance }}</td>
+                        <td>{{ wallet_journal[i].date }}</td>
+                        <td>{{ wallet_journal[i].description }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        </div>
+        {% endif %}
+        {% if attributes %}
+        <br>
+          <h1>Attribute und Skills</h1>
+          <br>
+          <h2>Attribute</h2>
+
+          Der Charakter hat {{ attributes.bonus_remaps }} remaps. <br>
+          Sein derzeitiger Remap hat folgende Attribute: <br>
+          <ul>
+              <li>Charisma: {{ attributes.charisma }}</li>
+              <li>Intelligence: {{ attributes.intelligence }}</li>
+              <li>Memory: {{ attributes.memory }}</li>
+              <li>Willpower: {{ attributes.willpower }}</li>
+              <li>Perception: {{ attributes.perception }}</li>
+          </ul>
+          <br><br>
+        {% endif %}
+        <!--Skill part-->
+        {% if skills %}
+          <h2>Skillpunkte</h2>
+          Der Charakter hat insgesamt {{ skills['total_sp'] }} Skillpunkte. <br>
+          {% if skills['unallocated_sp'] %}
+            Zusätzlich hat der Charakter weitere {{ skills['unallocated_sp'] }} unallocated Skillpunkte. <br>
+          {% endif %}
+          <br>
+          <h2>Skills</h2>
+          <h4>Armor</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Armor' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Corporation Management</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Corporation Management' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Drones</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Drones' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Electronic Systems</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Electronic Systems' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Engineering</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Engineering' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Fleet Support</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Fleet Support' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Gunnery</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Gunnery' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Missiles</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Missiles' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Navigation</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Navigation' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Neural Enhancement</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Neural Enhancement' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Planet Management</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Planet Management' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Production</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Production' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Resource Processing</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Resource Processing' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Rigging</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Rigging' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Scanning</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Scanning' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Science</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Science' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Shields</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Shields' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Social</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Social' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Spaceship Command</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Spaceship Command' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Structure Management</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Structure Management' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Subsystems</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Subsystems' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Targeting</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Targeting' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+          <h4>Trade</h4>
+          {% for skill in skills_list %}
+            {% if skill.category == 'Trade' %}  
+              {{ skill.lvl }} : {{ skill.name }}<br>
+            {% endif %}
+          {% endfor %}
+          <br>
+        {% endif %}
+
+        <!--Skill Quere Part-->
+        {% if quere %}
+        <br>
+        <h1>Skillwarteschlange</h1>
+        <br>
+        <div class="container">
+          <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <!-- Your Columns HERE -->
+                    <th scope="col">Position</th>
+                    <th scope="col">Skill</th>
+                    <th scope="col">Trainierendes Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Your rows inside the table HERE: -->
+                {% for q in quere_len %}
+                  {% for x in quere %}
+                    {% if x[0] == q %}
+                      <tr>
+                        <td>{{ quere[q][0] }}</td>
+                        <td>{{ quere[q][1]['name'] }}</td>
+                        <td>{{ quere[q][2] }}</td>
+                      </tr>
+                      
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        {% endif %}
+          
+          <!--Location and online stuff-->
+        {% if location %}
+          <br>
+          <h1>Standort und Status</h1>
+          <br>
+          Der Charakter {{ char.character_name }} befindet sich zur Zeit im 
+          Sonnensystem {{ location }}.<br>
+          Er befindet sich im Schiff {{ ship }} und ist gerade 
+          {% if online['online'] %} online {% else %} nicht online. 
+          {% endif %} <br>
+        {% endif %}
+
+        <!--Clones and there imps-->
+        {% if home_location %}
+        <br>
+        <h1>Clone und deren Implantate</h1>
+        <br>
+        Das Home System von {{ char.character_name }} ist {{ home_location }}. <br>
+        <br>
+        <h2>Aktuelle Imps im aktiven Clone:</h2>
+        <br>
+        <ul>
+          {% for imp in current_imps %}
+          <li>
+            {{ imp['name'] }}
+          </li>
+          {% endfor %}
+        </ul>
+        <br>
+        <h2>Jump Clone</h2>
+        <div class="container">
+          <table class="table table-hover table-dark">
+            <thead>
+              <tr>
+                <!-- Your Columns HERE -->
+                <th scope="col">Strukturname</th>
+                <th scope="col">Sonnensystem</th>
+                <th scope="col">Implantate</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Your rows inside the table HERE: -->
+              <!--System, Imps-->
+              {% for clone in imps  %}
+              <tr>
+                <td>{{ clone[0] }}</td>
+                <td>{{ clone[1] }}</td>
+                <td>
+                  <ul>
+                    {% for imp in clone[2] %}
+                      {% if imp %}
+                        <li> {{ imp }} </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </td>
+              </tr>                      
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>  
+        {% endif %}
+        
+        <!--Bookmark stuff-->
+        {% if bm_folders %}
+          <h1>Bookmark Folders</h1>
+          <br>
+          Der Charakter {{ char.character_name }} hat folgende Bookmark Ordner:
+          <ul>
+            {% for b in bm_folders %}
+              <li>{{ b['name'] }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        <!--Contacts-->
+        {% if contacts %}
+        <br>  
+        <h1>Kontakte</h1>
+        <br>
+        <div class="container">
+          <table class="table table-hover table-dark">
+            <thead>
+              <tr>
+                <!-- Your Columns HERE -->
+                <th scope="col">Name</th>
+                <th scope="col">Kontakt Typ</th>
+                <th scope="col">Standing</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Your rows inside the table HERE: -->
+              {% for c in contacts %}
+                <tr>
+                  <!--KEYerror here: because corparation -->
+                  <td>{{ c[0] }}</td>
+                  <td>{{ c[1] }}</td>
+                  <td>{{ c[2] }}</td>
+                </tr>                                    
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>  
+        {% endif %}
+        
+        <!--contracts-->
+        {% if contracts_data %}
+          <br>
+          <h1>Verträge</h1>
+          <br>
+          <div class="container">
+            <table class="table table-hover table-dark">
+              <thead>
+                <tr>
+                  <!-- Your Columns HERE -->
+                  <th scope="col">Vertrag an Privat</th>
+                  <th scope="col">Titel</th>
+                  <th scope="col">Verfügbarkeit</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Typ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Your rows inside the table HERE: -->
+                {% for i in length %}
+                  <tr>
+                    <td>{{ assignee_name[i]['name'] }}</td>
+                    <td>{{ contracts_data[i]['title'] }}</td>
+                    <td>{{ contracts_data[i]['availability'] }}</td>
+                    <td>{{ contracts_data[i]['status'] }}</td>
+                    <td>{{ contracts_data[i]['type'] }}</td>
+                  </tr>                                    
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>  
+
+        {% endif %}
+
+        <!--Mail Part-->
+        {% if mails %}
+        <br>
+        <h1>Mails</h1>
+        <br>
+        {% if mailing_lists_name %}
+        Der Charakter hat folgende Mailinglisten aboniert:
+        <ul>
+          {% for list in mailing_lists_name %}
+            <li>{{ list }}</li>
+          {% endfor %}
+        </ul>
+        <br>
+        {% endif %}
+        <br>
+        <div class="container">
+          <table class="table table-hover table-dark">
+            <thead>
+              <tr>
+                <!-- Your Columns HERE -->
+                <th scope="col">Absender</th>
+                <th scope="col">Empfänger</th>
+                <th scope="col">Betreff</th>
+                <th scope="col">Datum</th>
+                <th scope="col">Text</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Your rows inside the table HERE: -->
+              {% for i in mail_len %}
+                <tr>
+                  <td>{{ sender_names[i] }}</td>
+                  <td>{{ mails[i]['recipients']['recipients_names'] }}</td>
+                  <td>{{ mails[i]['subject'] }}</td>
+                  <td>{{ mails[i]['timestamp'] }}</td>
+                  <td>{{ mails[i]['body'] }}</td>
+                </tr>                                    
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>  
+        {% endif %}
+    </div>
+{% endblock %}
